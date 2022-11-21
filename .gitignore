@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+tmp/
+*.log
+.idea/
+.nyc_output/
+dist
+package-lock.json
