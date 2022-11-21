@@ -4,5 +4,6 @@ tmp/
 *.log
 .idea/
 .nyc_output/
+coverage
 dist
 package-lock.json
