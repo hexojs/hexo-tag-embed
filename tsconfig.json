@@ -7,11 +7,12 @@
     "declaration": true,
     "esModuleInterop": true,
     "types": [
-      "node"
+      "node",
+      "mocha"
     ]
   },
   "include": [
-    "lib/log.ts"
+    "lib/index.ts"
   ],
   "exclude": [
     "node_modules"

@@ -9,8 +9,8 @@
     "clean": "tsc -b --clean",
     "eslint": "eslint .",
     "pretest": "npm run clean && npm run build",
-    "test": "mocha test/index.js --require ts-node/register",
-    "test-cov": "nyc --reporter=lcovonly npm test"
+    "test": "mocha -r ts-node/register 'test/**/*.ts'",
+    "test-cov": "c8 --reporter=lcovonly npm test"
   },
   "directories": {
     "lib": "./lib"
@@ -31,10 +31,13 @@
   "author": "Tommy Chen <tommy351@gmail.com> (https://zespia.tw)",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.0",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "chai": "^4.3.7",
+    "cheerio": "^1.0.0-rc.12",
     "eslint": "^8.28.0",
     "eslint-config-hexo": "^5.0.0",
     "mocha": "^10.1.0",
@@ -44,5 +47,8 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "dependencies": {
+    "hexo-util": "^3.0.1"
   }
 }
