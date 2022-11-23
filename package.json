@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-embed",
-  "version": "0.0.0",
+  "version": "1.0.0-rc.1",
   "description": "Embed tags for Hexo",
   "main": "dist/index.js",
   "scripts": {
