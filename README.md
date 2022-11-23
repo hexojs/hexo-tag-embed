@@ -2,6 +2,16 @@
 
 [![Tester](https://github.com/hexojs/hexo-tag-embed/actions/workflows/tester.yml/badge.svg)](https://github.com/hexojs/hexo-tag-embed/actions/workflows/tester.yml)
 
+# NOTE
+
+This plugin's features have been divided from https://github.com/hexojs/hexo
+
+- refs:
+    - https://github.com/hexojs/hexo/pull/5067
+    - https://github.com/hexojs/hexo/pull/5064
+    - https://github.com/hexojs/hexo/pull/5065
+    - https://github.com/hexojs/hexo/pull/5066
+
 # Usage
 
 ## Gist
