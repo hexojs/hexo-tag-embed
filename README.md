@@ -5,9 +5,11 @@
 [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-tag-embed.svg)](https://coveralls.io/r/hexojs/hexo-tag-embed?branch=main)
 
 > **Warning**
+>
 > Please do not use this plugin with less than hexo `v7.0.0`.
 
 > **Note**
+>
 > This plugin's features have been divided from https://github.com/hexojs/hexo
 >
 > - https://github.com/hexojs/hexo/pull/5064
