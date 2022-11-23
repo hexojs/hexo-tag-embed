@@ -2,9 +2,9 @@
   "name": "hexo-tag-embed",
   "version": "0.0.0",
   "description": "Embed tags for Hexo",
-  "main": "dist/embed.js",
+  "main": "dist/index.js",
   "scripts": {
-    "prepublish ": "npm run clean && npm run build",
+    "prepublish ": "npm install && npm run clean && npm run build",
     "build": "tsc -b",
     "clean": "tsc -b --clean",
     "eslint": "eslint .",
@@ -18,7 +18,7 @@
   "files": [
     "dist/**"
   ],
-  "types": "./dist/embed.d.ts",
+  "types": "./dist/index.d.ts",
   "repository": "hexojs/hexo-tag-embed",
   "homepage": "https://hexo.io/",
   "keywords": [
@@ -28,7 +28,7 @@
     "framework",
     "hexo"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (https://zespia.tw)",
+  "author": "Hexo Maintainers (https://github.com/hexojs)",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.3.4",
