@@ -4,6 +4,14 @@
 
 # Usage
 
+## Gist
+
+To embed a Gist snippet:
+
+```ejs
+{% gist gist_id [filename] %}
+```
+
 ## jsFiddle
 
 To embed a jsFiddle snippet:
