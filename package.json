@@ -41,6 +41,8 @@
     "cheerio": "^1.0.0-rc.12",
     "eslint": "^8.28.0",
     "eslint-config-hexo": "^5.0.0",
+    "hexo": "git+https://github.com/hexojs/hexo.git#807ddd8d39ee6d1da1f15a2976b5578154e48497",
+    "hexo-renderer-marked": "^6.0.0",
     "mocha": "^10.1.0",
     "sinon": "^14.0.2",
     "ts-node": "^10.9.1",
