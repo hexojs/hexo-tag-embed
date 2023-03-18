@@ -13,7 +13,7 @@ describe('Post', () => {
 
   before(async () => {
     // Load marked renderer for testing
-    await hexo.loadPlugin(require.resolve('hexo-renderer-marked'));
+    await hexo.loadPlugin(require.resolve('hexo-renderer-marked'), () => {});
   });
 
   // TODO: Should we move this test case to https://github.com/hexojs/hexo/blob/1127f0b85853ffcbe99d9f739500817e4fdc5817/test/scripts/hexo/post.js ?
