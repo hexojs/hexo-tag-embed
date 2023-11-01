@@ -29,7 +29,7 @@ describe('Post', () => {
       '{% youtube https://example.com/sample.mp4 %}'
     ].join('\n');
 
-    const data = await post.render(null, {
+    const data = await post.render('', {
       content,
       engine: 'markdown'
     });
@@ -60,9 +60,9 @@ describe('Post', () => {
       'echo "Hi"',
       '```'
     ].join('\n');
-    hexo.config.highlight.enable = false;
+    hexo.config.syntax_highlighter = '';
 
-    const data = await post.render(null, {
+    const data = await post.render('', {
       content,
       engine: 'markdown'
     });
