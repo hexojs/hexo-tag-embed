@@ -1,8 +1,8 @@
 # hexo-tag-embed
 
-[![Tester](https://github.com/hexojs/hexo-tag-embed/actions/workflows/tester.yml/badge.svg)](https://github.com/hexojs/hexo-tag-embed/actions/workflows/tester.yml)
+[![CI](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml)
 [![NPM version](https://badge.fury.io/js/hexo-tag-embed.svg)](https://www.npmjs.com/package/hexo-tag-embed)
-[![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-tag-embed.svg)](https://coveralls.io/r/hexojs/hexo-tag-embed?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/hexojs/hexo-tag-embed/badge.svg)](https://coveralls.io/github/hexojs/hexo-tag-embed)
 
 > **Warning**
 >
