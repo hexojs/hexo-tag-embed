@@ -1,6 +1,6 @@
 # hexo-tag-embed
 
-[![CI](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml)
+[![CI](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/hexojs/hexo-tag-embed/actions/workflows/ci.yml)
 [![NPM version](https://badge.fury.io/js/hexo-tag-embed.svg)](https://www.npmjs.com/package/hexo-tag-embed)
 [![Coverage Status](https://coveralls.io/repos/github/hexojs/hexo-tag-embed/badge.svg)](https://coveralls.io/github/hexojs/hexo-tag-embed)
 
