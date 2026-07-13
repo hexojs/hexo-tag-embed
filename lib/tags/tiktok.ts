@@ -5,7 +5,7 @@ import { htmlTag } from 'hexo-util';
 *
 * Syntax:
 *   {% tiktok video_id %}
-* 
+*
 * CSS styling can be done usig the class 'tiktoktag'
 */
 export function tiktokTag(id) {
